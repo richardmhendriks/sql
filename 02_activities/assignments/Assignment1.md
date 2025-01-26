@@ -207,3 +207,51 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 ```
 Your thoughts...
 ```
+A key issue in conceptualizing, formulating and applying database systems concerns cognitive biases, particularly those related to human value systems. These cognitive biases can be conceived as systematic errors in the way we reason about our surroundings and the world in general due to our subjective perception of reality. They are particularly salient in contemporary life because they are heavily reinforced by algorithmic social media, politically-captured mainstream media and increasingly ideological institutions. 
+
+The circulated article identifies perceived biases in the identity verification processes of Pakistan’s National Database and Registration Authority in the form of value judgements respecting family structure and formation, “gender schema”, and parentage, while making key observations of relevance to this course, including that:
+•	i) the lack of design consideration before implementation can result in inflexible databases;
+•	ii) the importance and intensiveness of citizen verification increases the need for data quality; and
+•	iii) it is challenging to “impos[e] computational structures on complex social phenomena”
+
+Here, I further explore the last of these observations, namely the challenge of designing data surveys and databases for handling complex social data, by considering the handling of “gender identity” in the University of Toronto’s Equity Survey, a database survey made available to every student and employee. This particularly issue of “gender identity” is near (if not at) the top of the list of culture war topics. One reason that ‘gender’ has proven so useful in the culture wars (and so difficult for data surveyors and database designers) is that both conservatives and progressives use this term to mean different things in different contexts for different agendas. One of the fundamentals of any database is to clearly define the meaning of terms as they are used within a database, as well as how they might be used in other contexts outside of that database. 
+
+So, what is “gender”? One of the more thorough efforts that I have seen to define this term is as follows:
+
+“GENDER1. A polite sounding word for the division between men and women, understood as a traditional alternative word for biological sex/the division between biological males and females. …
+
+GENDER2. A word for social stereotypes, expectations and norms of ‘masculinity’ and ‘femininity’, originally directed towards biological males and females respectively. …
+
+GENDER3. A word for the division between men and women, understood, by definition, as a division between two sets of people: those who have the social role of masculinity projected onto them, and those who have the social role of femininity projected onto them. …
+
+GENDER4. A shortened version of the term ‘gender identity’.” (Stock, K. 2021. Material Girls, at p. 38)
+
+This last of these meanings provides a nice segue into the UofT Equity Survey. The survey queries into 1) Indigenous Identity; 2) Racial/Ethnocultural Identity; 3) Religious or Spiritual Affiliations; 4) Gender Identity; 5) Sexual Orientation; and 6) Disability. The Gender Identity question reads as follows:
+
+“Please indicate which of the following best describe your gender identity. … check as many as apply:
+•	Genderqueer
+•	Man (cis, trans)
+•	Nonbinary
+•	Questioning
+•	Two-spirit
+•	Woman (cis, trans)
+•	My Gender Identity is best described as (please specify)
+•	Prefer not to answer   
+[A link leads to definitions and below, for brevity, are two illustrative definitions:]
+•	Genderqueer: A person who does not conform to social expectations of binary gender identity and gender expression, a person who might challenge social expectations of masculine and feminine behaviour and appearance.
+•	Man (cis, trans): A person whose gender identity may correspond with social expectations associated with being a man and/or masculine. People who identify as men may be cis (gender identity ‘aligns’ with birth assigned sex) or trans (gender identity is different from birth assigned sex).
+
+Below are three categories of questions (with examples) that I might ask when reviewing a survey design of this kind.
+1.	Defined and not defined
+•	What is the meaning of “gender identity” and why is it not defined? We are told that it is “different … from … sex” and so presumably excludes GENDER1, and the definition of “genderqueer” suggests that “gender” refers to GENDER2, but nowhere is the term defined.  
+•	Several of the “gender identity” definitions refer to “sex”. What is “sex”, and why is it not defined?
+•	Why is “man” defined in terms of GENDER2 and not in terms of GENDER1 (i.e. biological sex, a universally common definition) or for that matter GENDER3 (i.e., a person onto whom the social role of masculinity is projected, a common experience of many men)?  
+2.	Inclusions and exclusions
+•	Why are respondents not provided the opportunity to indicate “No gender identity”?
+•	Why does the survey contain no core question about biological sex, despite asking about sexual orientation, and frequently referring to “sex”? 
+3.	Values, biases and implications
+•	What values underly the survey design? (e.g., equity vs. equality, authority vs. subversion, liberty, individuality vs. collectivity, etc.)
+•	How might this survey be biased to promote some findings while downplaying others?
+•	What are the potential implications for survey data results of key definitions?
+
+In summary, political, social and moral biases find their way into data surveys and database designs. Surveyors and designers need to be cognizant of these realities and the manner in which our biases may influence our work and research.
