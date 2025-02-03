@@ -1,5 +1,9 @@
 --INNER JOIN
 
+SELECT * FROM product
+
+SELECT * FROM product_category
+
 SELECT * 
 FROM product -- on the left
 INNER JOIN product_category
